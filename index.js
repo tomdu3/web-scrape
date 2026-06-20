@@ -5,13 +5,9 @@ const { SERPAPI_KEY } = process.env;
 
 // Basic search with SerpAPI
 getJson({
-  engine: 'google',
-  q: 'cafe',
-  location: 'London, England, United Kingdom',
-  google_domain: 'google.co.uk',
+  engine: 'google_short_videos',
+  q: 'labubu',
   api_key: SERPAPI_KEY,
-  hl: 'en',
-  gl: 'uk',
 }, (json) => {
   console.log(json);
 });
