@@ -9,5 +9,5 @@ getJson({
   url: 'https://static.wikia.nocookie.net/thechitshow/images/9/9f/ChitProfile.png/revision/latest?cb=20250722022025',
   api_key: SERPAPI_KEY,
 }, (json) => {
-  console.log(json);
+  console.log(json.visual_matches);
 });
