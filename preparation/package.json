@@ -1,0 +1,24 @@
+{
+  "name": "web-scrape",
+  "version": "1.0.0",
+  "description": "- Webscraping with SerpAPI - [Web Scraping foe Beginners - Extract Data with an API](https://youtu.be/j6hnjNhx_MM)",
+  "homepage": "https://github.com/tomdu3/web-scrape#readme",
+  "bugs": {
+    "url": "https://github.com/tomdu3/web-scrape/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdu3/web-scrape.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "serpapi": "^2.2.1"
+  }
+}
